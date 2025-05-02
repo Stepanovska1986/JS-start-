@@ -39,4 +39,4 @@ console.log ( myObj);
 // myBigInt
 let myBigInt = 123n;
 myBigInt =myBigInt + 1n;
-console.log( 'myBigInt:' , myBigInt);
+console.log( 'myBigInt:', myBigInt);
