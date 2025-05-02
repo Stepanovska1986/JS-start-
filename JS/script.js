@@ -9,15 +9,15 @@ console.log('JS #1. Домашнє завдання. Основи JavaScript: П
  */
 
 var myNum = 10; // ім'я змінної: myNum, значення: 10
-console.log ( myNum);
+console.log( myNum);
 var myStr = 'some string';// ім'я змінної: myStr, значення: 'some string'
-console.log ( myStr);
+console.log( myStr);
 let myBool = 'true';// ім'я змінної: myBool, значення: true
-console.log ( myBool);
+console.log( myBool);
 let myArr = [ 1, 2, 3, 4, 5]// ім'я змінної: myArr, значення: 1, 2, 3, 4, 5
-console.log ( myArr);
+console.log( myArr);
 let myObj = { first: 'First Name', last: 'Last Name'};// ім'я змінної: myObj, значення: first: 'First Name', last: 'Last Name'
-console.log ( myObj);
+console.log( myObj);
 
 /*
  * #2
@@ -28,7 +28,7 @@ console.log ( myObj);
 
 // decimal2
  let decimal2 = myNum. toFixed (2);
- console.log('decimal2:' , decimal2);
+ console.log('decimal2:', decimal2);
 /*
  * #3
  *
@@ -38,5 +38,5 @@ console.log ( myObj);
 
 // myBigInt
 let myBigInt = 123n;
-myBigInt =myBigInt + 1n;
+myBigInt = myBigInt + 1n;
 console.log( 'myBigInt:', myBigInt);
